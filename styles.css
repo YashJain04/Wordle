@@ -1,5 +1,6 @@
 /* ASSETS */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 html, body {
     margin: 0%;
@@ -19,28 +20,29 @@ html, body {
 
 /* MAIN STYLES */
 .game-board {
-    width: 400px;
-    height: 400px;
-    background-color: grey;
+    width: 450px;
+    height: 500px;
+    /* background-color: grey; */
     margin: 0 auto;
     margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 .squares-for-letters {
-    margin: 1.5px;
-    width: calc(100% / 6); /* need 5 letters per row - because 5 letter word (use 6 to account for margins and other spacing) */
-    height: calc(100% / 7); /* need 6 rows - because 6 guesses (use 7 to account for margins and other spacing) */
-    border: 3px solid black;
+    margin: 3px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: calc(100% / 7); /* need 5 letters per row - because 5 letter word (use 7 to account for margins and other spacing)*/
+    height: calc(100% / 7.77); /* need 6 rows - because 6 guesses (use 7.77 to account for margins and other spacing as well as square size)*/
+    border: 3px solid lightgrey;
     text-align: center;
 }
 
 .letter {
     margin-top: 12px;
-    font-family: 'Bebas Neue';
+    font-family: 'Roboto';
     font-size: 2em;
 }
 
