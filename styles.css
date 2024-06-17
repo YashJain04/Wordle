@@ -40,12 +40,34 @@ html, body {
     text-align: center;
 }
 
+.correct {
+    color: white;
+    border-color: white;
+    background-color: #6AAA6A;
+}
+
+.incorrect {
+    color: white;
+    border-color: white;
+    background-color: #787C7A;
+}
+
+.incorrectSpot {
+    color: white;
+    border-color: white;
+    background-color: #C9B45A;
+}
+
 .letter {
     margin-top: 12px;
     font-family: 'Roboto';
     font-size: 2em;
 }
 
+#reveal-answer {
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
 
 /* FOOTER STYLES */
 .footer-container {
