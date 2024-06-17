@@ -7,3 +7,5 @@ This is the implementation of the Classic Wordle Game completed for CSI 3140 - A
 Please note there is no "/docs/design_system" as no assets such as images and docs were used. Other assets such as fonts are imported directly.
 
 The game can be played at https://yashjain04.github.io/Wordle/
+
+The answer for the word can be seen in the console for accessibility.
