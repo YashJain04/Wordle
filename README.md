@@ -10,8 +10,8 @@ The game can be played at https://yashjain04.github.io/Wordle/
 
 The answer for the word can be seen in the console for accessibility.
 
-Initial State:
+Initial State: [initial state image](https://github.com/YashJain04/Wordle/blob/main/docs/design_system/imageStateInitial.png)
 
-Ending State V1 (User Won):
+Ending State V1 (User Won): [user won image](https://github.com/YashJain04/Wordle/blob/main/docs/design_system/imageStateUserWon.png)
 
-Ending State V2 (User Lost):
+Ending State V2 (User Lost): [user lost image](https://github.com/YashJain04/Wordle/blob/main/docs/design_system/imageStateUserLost.png)
