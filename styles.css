@@ -67,6 +67,17 @@ html, body {
 #reveal-answer {
     text-align: center;
     font-family: 'Bebas Neue';
+    margin-bottom: 0;
+}
+
+.generate {
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    color: black;
+    margin-left: 46%;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    background: linear-gradient(#ebf4f5, #b5c6e0);
 }
 
 /* FOOTER STYLES */
